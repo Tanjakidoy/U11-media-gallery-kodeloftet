@@ -85,13 +85,11 @@ footer {
 .section_2 {
   background-color:#DEEFF8;
   display: flex; /* This property turns the element into a flex container, allowing its direct children (flex items) to be arranged according to the rules of the flexbox model. */
-  justify-content: center; /* The value center means that the items will be centered within the flex container. */
-  flex-direction: column; /* This property specifies the direction of the flex items (the children of the container). By setting it to column, the items will be arranged vertically (one below the other) instead of the default horizontal arrangement (left to right). */
-  align-items: center; /* The value center means that the items will be centered horizontally within the flex container. */ 
-  padding-left: 16rem;
-  padding-right: 16rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
    
 }
 
