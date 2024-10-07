@@ -9,10 +9,18 @@
 /* CSS - STYLING THE HTML NAV ELEMENT */
 
 .navbar {
-  background-color:#F4F1F9;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 h1 {
@@ -53,31 +61,6 @@ footer {
    
 }
 
-.section_3 {
-  background-color:#CED6EB;
-  display: flex; /* This property turns the element into a flex container, allowing its direct children (flex items) to be arranged according to the rules of the flexbox model. */
-  justify-content: center; /* The value center means that the items will be centered within the flex container. */
-  flex-direction: column; /* This property specifies the direction of the flex items (the children of the container). By setting it to column, the items will be arranged vertically (one below the other) instead of the default horizontal arrangement (left to right). */
-  align-items: center; /* The value center means that the items will be centered horizontally within the flex container. */ 
-  padding-left: 16rem;
-  padding-right: 16rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  
-}
-
-
-.section_4{
-  background-color:#DEEFF8;
-  display: flex; /* This property turns the element into a flex container, allowing its direct children (flex items) to be arranged according to the rules of the flexbox model. */
-  justify-content: center; /* The value center means that the items will be centered within the flex container. */
-  flex-direction: column; /* This property specifies the direction of the flex items (the children of the container). By setting it to column, the items will be arranged vertically (one below the other) instead of the default horizontal arrangement (left to right). */
-  align-items: center; /* The value center means that the items will be centered horizontally within the flex container. */ 
-  padding-left: 16rem;
-  padding-right: 16rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
 
 .image-container {
   display: flex;  /* Flexbox for horizontal layout */
@@ -87,3 +70,21 @@ footer {
   margin-bottom: 3rem;
 }
 
+footer {
+  text-align: center;
+  background-color: rgb(190, 190, 190);
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center; 
+  }
+
+  .footer-content {
+    padding: 1.5rem;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(
+      circle,
+      rgba(63, 94, 251, 1) 0%,
+      rgba(252, 70, 107, 1) 100%
+    );
+    text-align: center;
+  }
